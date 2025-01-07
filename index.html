@@ -1,0 +1,56 @@
+<!DOCTYPE html> <!--VERSÃO DO HTML-->
+<html lang="pt-br"> <!--TAG HTML É A LINGUAGEM DO SITE-->
+
+<head> <!-- configuração do site -->
+    <meta charset="UTF-8"> <!-- padrão de caracteres do site -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- site compartivel Celular/ pc -->
+    <title>Tesla</title> <!-- Titulo so site -->
+    <link rel="stylesheet" href="style.css"> <!-- importanto meu arquivo css -->
+</head>
+
+<body>
+    <img src="./img/logo.png" alt="logo da tesla" class="logo">
+
+    <ul class="Lista"> <!--iten 1-->
+        <li class="iten">
+            <video src="./img/model-y.mp4" muted autoplay loop></video>
+
+            <div class="info-carro">
+                <h1>Model Y</h1> <!--TITULO-->
+                <P class="sub-titulo">Parcelas apartir de 499 dólores</P>
+            </div>
+
+            <div class="rodape">
+                <button class="comprar" onclick="aparecerFormulario()">Comprar Agora</button>
+                <button class="test-drive">Faça um Test-Drive</button>
+                <p class="texto-inferior">Não garantimos seu veículo imeadiatamente, consulte nossos estoques</p>
+            </div>
+        </li>
+        <li class="iten"> <!--iten 2-->
+            <img src="./img/model-3.png" class="img-tesla" alt="imagem carro model 3">
+
+            <div class="info-carro">
+                <h1>Model 3</h1> <!--TITULO-->
+                <P class="sub-titulo">Compre Agora o seu Tesla</P>
+            </div>
+
+        </li>
+        <li class="iten"> <!--iten 3-->
+            <img src="./img/model-x.png" class="img-tesla" alt="imagem carrdo model x">
+
+            <div class="info-carro">
+                <h1>Model X</h1> <!--TITULO-->
+                <P class="sub-titulo">Peça ja o seu</P>
+            </div>
+        </li>
+    </ul>
+
+    <div class="formulario">
+        <button onclick="desaparecerFormulario()">Fechar</button>
+        <script type="text/javascript" src="https://form.jotform.com/jsform/241974053789672"></script>
+    </div>
+
+</body>
+<script src="scripts.js"></script>
+
+</html>
